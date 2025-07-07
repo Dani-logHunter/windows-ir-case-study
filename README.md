@@ -42,11 +42,14 @@ The following is my detection/discovery process.
 
 1.
 Name/Action: Creation of an Executable by an Executable
-Starting_file/Image: Image: C:\Users\User\AppData\Roaming\Microsoft\Telemetry\sihost32.exe  
+
+Starting_file/Image: C:\Users\User\AppData\Roaming\Microsoft\Telemetry\sihost32.exe
+
 TargetFilename: C:\Users\User\services32.exe
-Time: 8:31
-Date: 28\6
-This were the first foreign files I encountered that were new to my scan from the previous day. The virus I downloaded dropped these files so I realized it won't be a completely fileless attack. This is a fake sihost, not the real actual shell Infrastructure host file in system32. 
-![1](screenshots/01.png)
+
+Time: 8:31 : Date: 28\6
+
+This were the first foreign files I encountered that were new to my scan from the previous day. The virus I downloaded dropped these files so I realized it won't be a completely fileless attack. This is a fake sihost, not the real actual shell Infrastructure host file in system32.
+![first](screenshots/01.PNG)
 
 
