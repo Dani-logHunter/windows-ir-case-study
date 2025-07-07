@@ -465,3 +465,29 @@ Sihost in process
 
 So far primarily I have used sysmon + sigmas + chainsaw to detect all these behaviors. I planned to wipe the OS and do a clean install but I used winPmem to dump the memory of the previous OS just to do a deeper dive and see some other things I missed.
 
+![chainsaw](screenshots/chainsaw_front.PNG)
+
+chainsaw
+
+
+
+![elevation](screenshots/sihost32_1.PNG)
+
+sihost discovery in event viewer
+
+
+
+![elevation](screenshots/svchost32_2.PNG)
+
+Fake svchost.exe masquerade
+
+
+
+![elevation](screenshots/live_attack.PNG)
+
+Defender spotting trojans.
+
+
+![elevation](screenshots/esvr_svc_2.PNG)
+
+ESVR service being abused for dll sideloading
