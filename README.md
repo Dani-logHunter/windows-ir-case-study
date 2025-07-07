@@ -33,3 +33,20 @@ I always run a daily scan of my logs just to see how my machine is working behin
 I decided to piece together all the attack pattern and process step by step in order to reconstruct the TTP. The malware bundled a couple of trojans which I was able to detect and collage together in a folder to scan on virus total and potentially check the .exe codes in www.hybrid-analysis.com later to see how they were coded. 
 
 ![Detected artifacts](screenshots/virus_total.png)
+
+I ran a clean OS install after documenting this attack as even though I believe I got all the major chain of the attack, I can't guarantee integrity of the OS anymore. Also, a clean install is always great for rock-hard defense.
+
+This may be a long read, please bear with me. Thanks.
+
+The following is my detection/discovery process.
+
+1.
+Name/Action: Creation of an Executable by an Executable
+Starting_file/Image: Image: C:\Users\User\AppData\Roaming\Microsoft\Telemetry\sihost32.exe  
+TargetFilename: C:\Users\User\services32.exe
+Time: 8:31
+Date: 28\6
+This were the first foreign files I encountered that were new to my scan from the previous day. The virus I downloaded dropped these files so I realized it won't be a completely fileless attack. This is a fake sihost, not the real actual shell Infrastructure host file in system32. 
+![1](screenshots/01.png)
+
+
