@@ -55,6 +55,6 @@ This document captures key lessons, takeaways, and reflections from handling and
 
    - We never stop learning. There are still so many attacks in the wild and I stay up to date with reading on MITRE ATT&CK, reading cyber attack news from all over the world and just learning how to better protect
    
-     systems.
+     systems. Attacker are evolving, so shall we.
 
    - I am learning more advanced topics like wireshark packet capturing, amongst other things. 
