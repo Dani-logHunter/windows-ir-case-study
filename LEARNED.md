@@ -53,4 +53,8 @@ This document captures key lessons, takeaways, and reflections from handling and
  
    - I believe the real growth sets in when you respond under pressure, learn through failure, and keep moving forward. 
 
-   - We never stop learning. There are still so many attacks in the wild and I stay up to date with reading on MITRE ATT&CK, reading cyber attack news from all over the world and just learning how to better using advanced tools for protection.
+   - We never stop learning. There are still so many attacks in the wild and I stay up to date with reading on MITRE ATT&CK, reading cyber attack news from all over the world and just learning how to better protect
+   
+     systems.
+
+   - I am learning more advanced topics like wireshark packet capturing, amongst other things. 
