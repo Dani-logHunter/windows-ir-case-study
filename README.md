@@ -31,4 +31,5 @@ I always run a daily scan of my logs just to see how my machine is working behin
 
 
 I decided to piece together all the attack pattern and process step by step in order to reconstruct the TTP. The malware bundled a couple of trojans which I was able to detect and collage together in a folder to scan on virus total and potentially check the .exe codes in www.hybrid-analysis.com later to see how they were coded. 
-<image_of_virusTotalFolder>
+
+![Detected artifacts](screenshots/virus_total.png)
