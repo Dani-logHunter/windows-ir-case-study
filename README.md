@@ -491,3 +491,11 @@ Defender spotting trojans.
 ![elevation](screenshots/esvr_svc_2.PNG)
 
 ESVR service being abused for dll sideloading
+
+
+All files dropped are gathered for studying and uploading to virus total.
+
+
+## Reflections from attack
+
+Please see [LEARNED.md](LEARNED.md) for lessons learned during this response.
