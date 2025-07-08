@@ -499,3 +499,19 @@ All files dropped are gathered for studying and uploading to virus total.
 ## Reflections from attack
 
 Please see [LEARNED.md](LEARNED.md) for lessons learned during this response.
+
+
+
+## Memory forensics delay
+
+I dumped the memory of the previous OS in order to run deep analysis using volatility but for some reason, it would appear I am running into some dependencies issues probably due to windows 11. I'm not sure. I also tried to use rekall but I am having threat detetction
+
+issues there. I am still working on setting up that aspect of my lab but for now I have been reading about how to use those memory forensic tools to :
+
+a. Detect malicious processes (via pslist, malfind)
+
+b. Analyze command line execution (cmdline)
+
+c. Scan for network connections (netscan)
+
+I am researching alternatives to volatility in the mean time that I can use till I'm able to figure out the compatibility issseus,
