@@ -514,4 +514,6 @@ b. Analyze command line execution (cmdline)
 
 c. Scan for network connections (netscan)
 
-I am researching alternatives to volatility in the mean time that I can use till I'm able to figure out the compatibility issseus,
+I am researching alternatives to volatility in the mean time that I can use till I'm able to figure out the compatibility issues and revisit memory analysis in a more stable environment..
+
+![vola](screenshots/vola3.png)
